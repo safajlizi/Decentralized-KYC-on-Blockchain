@@ -104,7 +104,7 @@ const DisplayTransactions = () => {
       </div>
 
       <div className="display-transaction-image">
-        <img src="/assets/6.svg" alt=""/>
+       
       </div>
     </div>
   );

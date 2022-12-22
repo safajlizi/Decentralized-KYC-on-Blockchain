@@ -1,9 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.4.21 <0.7.0;
-
-// import "github.com/Arachnid/solidity-stringutils/strings.sol";
 contract Banking {
-    //  using strings for *;
 
     uint256 public serialNumber = 0;
     uint256 public transacNum = 0;

@@ -17,8 +17,13 @@ justify-content: center;
 
 
 .accounts>h1{
-    font-weight: 800;
+    font-weight: 600;
     font-size:clamp(1.2rem,3.2rem,6rem);
+    font: italic small-caps bold 50px/2 cursive;
+    position: relative;
+    float: right;
+    letter-spacing: 4px;
+    text-shadow: 1px 1px #e78a10;
     margin:40px 50px 10px 50px;
 }
 .account-bars-container{
@@ -36,7 +41,7 @@ justify-content: center;
     padding:0 30px;
     height:100px;
     width:90%;
-    background-color: black;
+    background-color: rgb(90, 89, 89);
     
     border-radius: 15px;
     color:white;

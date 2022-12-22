@@ -11,7 +11,7 @@ const Navbar = () => {
           window.location.href = "/";
         }}
       >
-        <h1>Ethereal</h1>
+        <h1>BANKY</h1>
       </div>
       <div className="navlistcontainer">
         <ul className="navlist">

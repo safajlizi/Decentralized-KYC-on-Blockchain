@@ -24,6 +24,11 @@
 .form-wrapper>h1{
     font-weight: 800;
     font-size: clamp(1.2rem,3.5rem,6rem);
+    font: italic small-caps bold 30px/2 cursive;
+    position: relative;
+    float: right;
+    letter-spacing: 4px;
+    text-shadow: 1px 1px #e78a10;
 }
 
 .form-wrapper>h2{
@@ -38,11 +43,11 @@
 }
 .form-input-field{
     margin:20px 0;
-    background-color: black;
+    background-color: rgb(248, 248, 248);
     outline:none;
     border: none;
     height:50px;
-    color:white;
+    color:rgb(19, 18, 18);
    font-size:1.2rem;
    border-radius: 5px;
 }
@@ -50,13 +55,13 @@
 
 .submit-button{
     margin:20px 0;
-    background-color: black;
+    background-color: rgb(190, 176, 176);
     outline: none;
     border: none;
     border-radius: 10px;
     height: 40px;
     width:200px;
-    color:white;
+    color:rgb(255, 255, 255);
 
 
 }

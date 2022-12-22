@@ -2,13 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Gluten:wght@400;500&family=Source+Sans+Pro&display=swap");
 .navbar {
   height: 10vh;
-  width: 90%;
+  width: 100%;
   margin: auto;
   padding: 0;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
+  background-color: rgb(253, 221, 161);
 }
 
 .navlogocontainer {
@@ -19,7 +20,9 @@
 
 .navlogocontainer > h1 {
     color:black;
-  font-size: clamp(1rem, 1.5vw, 1.5rem);
+  font-size: clamp(1rem, 3.5vw, 1.5rem);
+  margin-left: 15px;
+  font-size: 38px;
   cursor:pointer;
 }
 

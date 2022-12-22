@@ -37,24 +37,21 @@ const MainSection = () => {
       <div className="main-section-grid">
         <div className="hero-panel">
           <div className="content-container">
-            <h1>ethereal</h1>
-            <h2>The most secure banking platform</h2>
-            <h3>
-              Now don't worry about money wandering off away from your account
-              as this application is secured using blockchain.
-            </h3>
+            <h2>Bienvenu 
+              Notre banque est un peu différent de ce que vous voyez </h2>
+            
             <button
               className="start-button"
               onClick={() => {
                 window.location = "/create";
               }}
             >
-              GET STARTED
+              commencer
             </button>
           </div>
         </div>
         <div className="bank-image-container">
-          <img alt="" src="./assets/3.svg" className="bank-image" />
+          <img alt="" src="./assets/cc.png" className="bank-image" />
         </div>
       </div>
     </div>

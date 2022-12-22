@@ -57,6 +57,11 @@ padding:0;
     
     font-size: clamp(1.2rem,2vw,4rem);
     color:black;
+    font: italic small-caps bold 70px/2 cursive;
+    position: relative;
+    float: right;
+    letter-spacing: 4px;
+    text-shadow: 1px 1px #e78a10;
 }
 .content-container >h3{
     color:black;
@@ -68,11 +73,13 @@ padding:0;
 .start-button{
     outline: 0;
     border:0;
-    background-color: black;
-    color: white;
-    height:40px;
-    width:120px;
+    background-color: rgb(197, 230, 250);
+    color: rgb(0, 0, 0);
+    height:60px;
+    width:190px;
     transition: 400ms;
+    font: italic small-caps bold 20px/2 cursive;
+    border-radius: 0%;
 }
 
 .start-button:hover{

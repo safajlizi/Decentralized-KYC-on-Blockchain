@@ -189,35 +189,35 @@ const AccountDetails = () => {
         <div className="account-card">
           {!loading ? (
             <div className="inner-wrapper">
-              <h1>ACCOUNT-NUMBER : {bankingAccount.serial}</h1>
-              <h1>ACCOUNT-NAME : {bankingAccount.name}</h1>
-              <h1>ACCOUNT-BALANCE : {bankingAccountBalance} ETH</h1>
-              <h1>ACCOUNT-LOCATION : {bankingAccount.location}</h1>
-              <h1>ACCOUNT-CREATED-AT : {createdDate}</h1>
+              <h1><span>Numero du compte :</span> {bankingAccount.serial}</h1>
+              <h1><span>Nom du compte :</span> {bankingAccount.name}</h1>
+              <h1><span>Balance du compte:</span> {bankingAccountBalance} ETH</h1>
+              <h1><span>Localisation du compte:</span> {bankingAccount.location}</h1>
+              <h1><span>Compte : cree a </span> {createdDate}</h1>
             </div>
           ) : null}
         </div>
 
         <div className="add-balance-card">
-          <h1>Add more balance to your account</h1>
+          <h1>Ajouter une balance a votre compte</h1>
           <form onSubmit={addBalance} className="transact-form">
             <input
               type="number"
               className="form-input-account"
-              placeholder="Add amount"
+              placeholder="Ajouter montant"
               value={balanceAdded}
               onChange={(e) => {
                 setBalanceAdded(e.target.value);
               }}
             />
             <button className="approve-button" type="submit">
-              ADD
+              Ajouter
             </button>
           </form>
         </div>
 
         <div className="withdraw-balance-card">
-          <h1>Withdraw the balance from your existing account</h1>
+          <h1>Debiter une balance de votre copte existatnt</h1>
           <form onSubmit={withdrawBalance} className="transact-form">
             <input
               type="number"
@@ -229,55 +229,41 @@ const AccountDetails = () => {
               }}
             />
             <button className="approve-button" type="submit">
-              WITHDRAW
+              debiter
             </button>
           </form>
         </div>
 
         <div className="transfer-balance-card">
           <h1>
-            Now you can easily transfer your virtual balance from your account
-            to other account
+             TRANSFERER ARGENT
           </h1>
           <button
-            className="approve-button"
+            className="approve-button1"
             onClick={() => {
               window.location = `/transfer/${id}`;
             }}
           >
-            TRANSFER BALANCE TO OTHER ACCOUNTS
+            TRANSFERER ARGENT A D'AUTRES COMPTES
           </button>
         </div>
 
         <div className="loan-transaction-card">
-          <h1>
-            You can also easily take loans which can be paid on monthly
-            installments with constant interest rates.
+        <h1>
+           HISTORIQUE
           </h1>
-
-          <button
-            className="approve-button"
-            onClick={() => {
-              window.location = `/loans/${id}`;
-            }}
-          >
-            GET EASY LOANS
-          </button>
-        </div>
-
-        <div className="transaction-history">
-          <h1>
-            You can view your complete transaction history for this account here 
-          </h1>
-          <button className="approve-button"
+          <button className="approve-button1"
            
            onClick={()=>{
              window.location.href=`/transactions/${id}`
            }}
           >
-          TRANSACTION HISTORY 
+          HISTORIQUES DE TRANSACTION
+          HISTORIQUES DE TRANSACTION
           </button>
         </div>
+
+       
       </div>
     </div>
   );

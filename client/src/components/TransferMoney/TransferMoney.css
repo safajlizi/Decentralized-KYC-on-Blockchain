@@ -15,8 +15,13 @@
 }
 
 .transfer-section-wrapper>h1{
-    font-weight:800;
-    font-size:clamp(1.2rem,3.5rem,6rem);
+    font-weight: 800;
+    font-size: clamp(1.2rem,3.5rem,6rem);
+    font: italic small-caps bold 30px/2 cursive;
+    position: relative;
+    float: right;
+    letter-spacing: 4px;
+    text-shadow: 1px 1px #e78a10;
 
 }
 

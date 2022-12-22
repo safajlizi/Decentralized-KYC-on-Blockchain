@@ -65,7 +65,7 @@ const DisplayAccounts = () => {
 
     <div className="display-accounts">
       <div className="accounts">
-        <h1>YOUR REGISTERED ACCOUNTS</h1>
+        <h1>les comptes enregistres</h1>
         <div className="account-bars-container">
            {
             !loading?bankAccounts.map((account)=>{
@@ -90,7 +90,7 @@ const DisplayAccounts = () => {
       </div>
 
       <div className="accounts-image">
-        <img src="./assets/4.svg" className="accounts-display-image" alt=""/>
+        <img src="./assets/investment-dollar-icon.svg" className="accounts-display-image" alt=""/>
       </div>
     </div>
   );

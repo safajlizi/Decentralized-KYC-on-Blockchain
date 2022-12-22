@@ -75,16 +75,15 @@ const CreateAccount = () => {
     <div className="create-account">
       <div className="form-wrapper-container">
         <div className="form-wrapper">
-          <h1>REGISTER HERE</h1>
+          <h1>S'INSCRIRE</h1>
           <h2>
-            Your main ethereum wallet will be deducted with 2 ETH by default
-            when you open an account and this 2 ETH will be deposited in your bank account
+            
           </h2>
           <form onSubmit={handleSubmit} className="create-form">
             <input
               className="form-input-field"
               type="text"
-              placeholder="Name of the account holder"
+              placeholder="Nom du compte"
               value={accountHolder}
               onChange={(e) => {
                 setAccountHolder(e.target.value);
@@ -98,18 +97,18 @@ const CreateAccount = () => {
                 setAccountLocation(e.target.value);
               }}
               type="text"
-              placeholder="Home Address of account holder"
+              placeholder="Adresse du compte"
             ></input>
 
             <button className="submit-button" type="submit">
-              CREATE A NEW ACCOUNT
+              creer un nouveau compte
             </button>
           </form>
         </div>
       </div>
 
       <div className="image-wrapper">
-        <img src="./assets/2.svg" className="create-account-image" alt=""/>
+        <img src="./assets/cc1.png" className="create-account-image" alt=""/>
       </div>
     </div>
   );
